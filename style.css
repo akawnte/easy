@@ -1,0 +1,198 @@
+body{
+    background-image: url(success.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container_div{
+    background-image:linear-gradient( rgb(80, 80, 80),rgb(120, 120, 120))
+}
+.service{
+    background-image:linear-gradient( rgb(80, 80, 80),rgb(120, 120, 120));
+    border-radius: 5px;
+    width: 5rem;
+    text-align: center;
+    
+}
+.service:hover{
+    color: white;
+    background-image:linear-gradient( rgb(100, 100, 100),rgb(150, 150, 150));
+    cursor: pointer;
+    transition-duration: 500ms;
+    
+}
+.input{
+    border-radius: 5px;
+    text-align: center;
+    border: 0;
+}
+.input{
+    background-color: rgb(230, 230, 230);
+}
+.ul{
+    position: absolute;
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient( rgb(80, 80, 80),rgb(120, 120, 120));
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.service:hover .ul{
+    transition-duration: 500ms;
+    display: block;
+    color: black;
+}
+.ull{
+    background-image:linear-gradient( rgb(80, 80, 80),rgb(120, 120, 120));
+    border-radius: 5px;
+    margin-top: 0.4rem;
+}
+.ull:hover{
+
+    color: white;
+    background-image:linear-gradient( rgb(100, 100, 100),rgb(150, 150, 150));
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+.ullang{
+    background-image:linear-gradient( rgb(80, 80, 80),rgb(120, 120, 120));
+    border-radius: 5px;
+   
+}
+.ulpart{
+    position: absolute;
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient( rgb(80, 80, 80),rgb(120, 120, 120));
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.ullang:hover{
+
+    color: white;
+    background-image:linear-gradient( rgb(100, 100, 100),rgb(150, 150, 150));
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+.ullang:hover .ulpart{
+    transition-duration: 500ms;
+    display: block;
+    color: black;
+    margin-left: 126px;
+    margin-top: -30px;
+}
+.ulpart2{
+    position: absolute;
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient( rgb(80, 80, 80),rgb(120, 120, 120));
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.ullsch:hover{
+
+    color: white;
+    background-image:linear-gradient( rgb(100, 100, 100),rgb(150, 150, 150));
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+.ullsch:hover .ulpart2{
+    transition-duration: 500ms;
+    display: block;
+    color: black;
+    margin-left: 126px;
+    margin-top: -30px;
+}
+.ullsch{
+    background-image:linear-gradient( rgb(80, 80, 80),rgb(120, 120, 120));
+    border-radius: 5px;
+    margin-top: 0.4rem;
+}
+
+#lo{
+    height:auto;
+    width:auto;
+    background-image:linear-gradient( rgb(100, 100, 100),rgb(150, 150, 150));
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#lo{
+    display: none;
+    position: absolute;
+    z-index: 10;
+
+}
+.mu{
+    background-image:linear-gradient( rgb(100, 100, 100),rgb(150, 150, 150));
+}
+#xmark{
+    color: aquamarine;
+    display: flex;
+}
+#xmark:hover{
+    cursor: pointer;
+}
+#icon_fora{
+    height: 2rem;
+    width: 2rem;
+    background-color: aquamarine;
+}
+#icon{
+    animation: foricon 1s infinite alternate
+    
+}
+
+@keyframes foricon{
+    0%{rotate: 0deg;}
+    /* 25%{rotate: 25deg;} */
+    50%{rotate: 25deg;}
+    /* 75%{rotate: -25deg;} */
+    100%{rotate: 0deg;}
+}
+#menu_icon{
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}
+#menu_icon:hover{
+
+    color: white;
+    background-image:linear-gradient( rgb(100, 100, 100),rgb(150, 150, 150));
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+#menu_ul{
+    position: absolute;
+    list-style: none;
+    
+    z-index: 100;
+    margin-top: 1rem;
+    margin-right: 10rem;
+    background-image:linear-gradient( rgb(100, 100, 100),rgb(150, 150, 150));
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    display:none;
+}
+#times:hover{
+
+    color: white;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+.ulm:hover{
+
+    color: white;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+.ulm{
+    background-image:linear-gradient( rgb(100, 100, 100),rgb(150, 150, 150));
+    margin-bottom: 0.3rem;
+    border-radius: 10px;
+}
